@@ -63,7 +63,7 @@ const LoginForm = ({ setOpen }) => {
           <span className="text-red-500 my-2">{errors.login}</span>
         )}
       </label>
-      <label className="flex flex-col my-3 font-medium">
+      <label className="flex flex-col my-3 font-medium relative">
         Пароль
         <input
           onChange={(event) => setPassword(event.target.value)}

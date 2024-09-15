@@ -79,7 +79,7 @@ const RegisterForm = ({ setOpen }) => {
   return (
     <form
       onSubmit={submitHandler}
-      className="bg-white flex flex-col py-6 px-6 rounded-md w-1/5"
+      className="bg-white flex flex-col py-6 px-6 rounded-md w-1/4"
     >
       <label className="flex flex-col font-medium">
         Имя пользователя
@@ -107,7 +107,7 @@ const RegisterForm = ({ setOpen }) => {
           <span className="text-red-500 my-2">{errors.email}</span>
         )}
       </label>
-      <label className="flex flex-col my-3 font-medium">
+      <label className="flex flex-col my-3 font-medium relative">
         Пароль
         <input
           onChange={(event) => setPassword(event.target.value)}

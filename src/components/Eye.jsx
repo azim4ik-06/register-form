@@ -3,7 +3,7 @@ const Eye = ({ showPassword, togglePasswordVisibility }) => {
     <button
       type="button"
       onClick={togglePasswordVisibility}
-      className="password-toggle bg-transparent"
+      className="password-toggle bg-transparent absolute top-[41px] right-2"
     >
       {showPassword ? (
         <svg
